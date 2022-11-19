@@ -1,4 +1,4 @@
-package com.droident.stockmarketapp.data.repository
+package com.droident.stockmarketapp.data.remote
 
 import okhttp3.ResponseBody
 import retrofit2.http.GET
@@ -11,8 +11,8 @@ interface StockApi {
     :ResponseBody
 
     companion object{
-        const val API_KEY =""
-        const val BASE_URL=""
+        const val API_KEY ="LGFFPJKFNFP90Q31"
+        const val BASE_URL="https://www.alphavantage.co/"
     }
 
 }
